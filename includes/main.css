@@ -1,0 +1,426 @@
+   
+    @import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+    html 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    body 
+    {
+        margin: 0 auto;
+        background: #fff;
+        font-family: 'Roboto';
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .n-dicoration
+    {
+        text-decoration: none;
+    }
+
+    .header 
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .header-uptext 
+    {
+        margin: 1rem 1rem 1rem 3rem;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000;
+    }
+
+    .header-uptext:hover
+    {
+        transition: 0.5s;
+        color: #3d3d3d;
+    }
+
+    .header-uptext:not(hover)
+    {
+        transition: 0.4s;
+    }
+
+    .header-ut
+    {
+        border-bottom: 1px solid black;
+    }
+
+    .fscreen-container 
+    {
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url('img/str1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .img-fscreen 
+    {
+        width: 100%;
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .fscreen-title 
+    {
+        font-size: 60px;
+        color: #fff;
+        position: absolute;
+        top: calc(50% - 36px);
+        left: calc(50% - 306px);
+    }
+
+    .dtitle
+    {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        font-size: 30px;
+        width: 100%;
+        display: block;
+    }
+
+    .dtitle-b
+    {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        font-size: 40px;
+        width: 100%;
+        display: block;
+    }
+
+    .dimg
+    {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+
+    .dimg-fsc
+    {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .dsubtext
+    {
+        font-size: 20px;
+        text-align: left;
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .dsubtext-s
+    {
+        font-size: 15px;
+        text-align: center;
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .dgroup
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .dgroup-content
+    {
+        width: 30%;
+        margin-bottom: 1rem;
+    }
+
+    .dgroup-img
+    {
+        width: 80%;
+        margin-bottom: 0.5rem;
+    }
+
+    .dgroup-dtext
+    {
+        font-size: 20px;
+    }
+
+    .fscreen-white-container 
+    {
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+
+    .btn
+    {
+        background: #fff;
+        color: #000;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding: 7px;
+        width: 150px;
+        border-radius: 30px;
+        border: 1px solid #2e2e2e;
+        cursor: pointer;
+    }
+
+    .btn:hover
+    {
+        transition: 0.5s;
+        background: #000;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    .btn:not(hover)
+    {
+        transition: 0.4s;
+    }
+
+    .contacts-container
+    {
+        background: #fff;
+        width: 45%;
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .contacts-title
+    {
+        font-weight: bold;
+    }
+    
+    .dform
+    {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .dform-content
+    {
+        margin-bottom: 2rem;
+        margin-top: -1em;
+        text-align: left;
+    }
+
+    .input
+    {
+        border: none;
+        border-bottom: 1px solid #000;
+        margin-bottom: 1rem;
+        width: 35%;
+        font-size: 20px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    .dform .dtitle
+    {
+        text-align: left;
+    }
+
+    .visible
+    {
+        display: block;
+    }
+
+    .unvisible
+    {
+        display: none;
+    }
+
+    .uv-container1
+    {
+        display: none;
+    }
+
+    .uv-container1.visible
+    {
+        display: block;
+    }
+
+    .uv-container2
+    {
+        display: none;
+    }
+
+    .uv-container2.visible
+    {
+        display: block;
+    }
+
+    .uv-container3
+    {
+        display: none;
+    }
+
+    .uv-container3.visible
+    {
+        display: block;
+    }
+
+    .uv-container4
+    {
+        display: none;
+    }
+
+    .uv-container4.visible
+    {
+        display: block;
+    }
+
+    .uv-container5
+    {
+        display: none;
+    }
+
+    .uv-container5.visible
+    {
+        display: block;
+    }
+
+    .uv-container6
+    {
+        display: none;
+    }
+
+    .uv-container6.visible
+    {
+        display: block;
+    }
+
+    .dnotes-container
+    {
+        width: 100%;
+        background: #fff;
+        padding: 100px;
+        text-align: center;
+        position: absolute;
+        margin-top: -20.5em;
+        box-sizing: border-box;
+    }
+
+    .dn-title
+    {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .input-b
+    {
+        width: 45%;
+        padding-left: 20px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        outline: none;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-bottom: 2rem;
+    }
+
+    .slider
+    {
+        margin-bottom: 2rem;
+        position: relative;
+    }
+
+    .s-item
+    {
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 45%;
+        padding: 20px;
+    }
+
+    .s-title
+    {
+        margin-bottom: 1rem;
+    }
+
+    .s-dtext
+    {
+        text-align: left;
+    }
+
+    .slick-track
+    {
+        display: flex;
+    }
+
+    .slick-list
+    {
+        overflow: hidden;
+    }
+
+    .slick-slide
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        outline: none;
+    }
+
+    .slick-slider
+    {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .slider .slick-arrow
+    {
+        position: absolute;
+        top: 40%;
+        z-index: 10;
+        font-size: 0px;
+        border: none;
+        width: 30px;
+        height: 30px;
+        outline: none;
+    }
+
+    .slider .slick-arrow.slick-next
+    {
+        right: -2rem;
+        background: url('img/s-arrow-right.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .slider .slick-arrow.slick-prev
+    {
+        left: -2rem;
+        background: url('img/s-arrow-left.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
